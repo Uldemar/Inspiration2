@@ -10,19 +10,37 @@
     <title>Problems Follow Up List</title>
     <div class ="container">
         <table>
-        <th border = solid>
-            <td>Инициатор</td>
-            <td>Клиент</td>
-            <td>Исполнитель</td>
-            <td>Дата запроса</td>
-            <td>Дедлайн</td>
-            <td>Тема проблемы</td>
-            <td>Описание проблемы</td>
-            <td>Коментарий исполнителя</td>
-            <td>Дополнительный коментарий</td>
-            <td>Ссылка на внешние источники</td>
-        </th>
-
+        <tr>
+            <td>Issuer</td>
+            <td>Customer</td>
+            <td>Executer</td>
+            <td>Date of request</td>
+            <td>Deadline</td>
+            <td>Theme</td>
+            <td>Description</td>
+            <td>Comment</td>
+            <td>Criticity</td>
+            <td>Attchments</td>
+        </tr>
+        <tr align="center">
+            <td><form id="iniciator"><input type="text"></form></td>
+            <td><form id="client"><input type="text"></form></td>
+            <td><form id="executor"><input type="text"></form></td>
+            <td><form id="request_date"><input type="date"></form></td>
+            <td><form id="dedline"><input type="date"></form></td>
+            <td><form id="theme"><input type="text"></form></td>
+            <td><textarea id="description"></textarea></td>
+            <td><textarea id="comments"></textarea></td>
+            <td><select name="Criticity" id="">
+                <option selected value="red">To be done immidiateley</option>
+                <option value="orange">To be done fast</option>
+                <option value="yellow">To be done non-critical</option>
+                <option value="green">Finished</option>
+            </select></td>
+            <td><form id="Attchments"><input type="file"></form></td>
+            <td><button type="submit">Send request</button></td>
+                    
+        </tr>
         </table>
 
 
