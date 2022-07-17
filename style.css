@@ -25,14 +25,17 @@ https://www.youtube.com/watch?v=kfOe-F64C_A&list=PLM6XATa8CAG4F9nAIYNS5oAiPotxwL
  https://www.youtube.com/watch?v=G4aOu26s4_s&list=PLM6XATa8CAG4F9nAIYNS5oAiPotxwLFIr&index=10
 
  box-shadow: сдивг горизонт, сдвиг вертикали, радиус тени, расстояние тени, цвет
+
+
+4.Background
+https://www.youtube.com/watch?v=8sHgyURhAkM&list=PLM6XATa8CAG4F9nAIYNS5oAiPotxwLFIr&index=11
+
  */
 
 
 
-
-
  .input{
-    border: 1px solid black;
+    border: 3px solid black;
     max-width: 25%;
     margin: 10px;
     border-radius: 10px 10px 10px 10px;
@@ -40,5 +43,4 @@ https://www.youtube.com/watch?v=kfOe-F64C_A&list=PLM6XATa8CAG4F9nAIYNS5oAiPotxwL
     padding: 20px;
     opacity: 90%;
     display: inline-block;
-
  }
